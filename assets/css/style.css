@@ -1151,26 +1151,7 @@ font-size: 1.6rem;
 letter-spacing: -.01em;
 margin-right: 1.5rem;
 }
-.header-intro-clearance .header-bottom .container::before {
-position: absolute;
-content: '';
-left: 28.5rem;
-height: 1.5rem;
-width: .1rem;
-top: 50%;
-background-color: #ccc;
-transform: translateY(-50%);
-}
-.header-intro-clearance .header-bottom .container::after {
-position: absolute;
-content: '';
-right: 28rem;
-height: 1.5rem;
-width: .1rem;
-top: 50%;
-background-color: #ccc;
-transform: translateY(-50%);
-}
+
 .header-intro-clearance .header-middle .header-right p {
 font-size: 1.1rem;
 }
