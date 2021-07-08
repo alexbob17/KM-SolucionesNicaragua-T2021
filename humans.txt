@@ -1,0 +1,14 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# Equipo
+	Desarrollador: Alejandro morales <Twitter> @kleosling
+
+# Agradecemos
+
+    KM Soluciones Nicaragua
+
+# TECHNOLOGY COLOPHON
+
+    CSS3, HTML5
+   jQuery, Modernizr, Normalize.css
