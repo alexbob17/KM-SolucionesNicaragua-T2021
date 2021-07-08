@@ -21,10 +21,10 @@ $(function() {
 					}
 				},
 				messages: {
-					fname: "Please enter your first name",
-					lname: "Please enter your last name",
-					email: "Please enter a valid email address",
-					message: "Please enter a message"
+					fname: "Ingresa tu primer Nombre",
+					lname: "Ingresa tu Apellido",
+					email: "Ingresa un email valido",
+					message: "Ingresa un mensaje"
 				},
 				/* submit via ajax */
 				submitHandler: function(form) {		
@@ -33,7 +33,7 @@ $(function() {
 
 					$.ajax({   	
 				      type: "POST",
-				      url: "php/send-email.php",
+				      url: "email.php",
 				      data: $(form).serialize(),
 
 				      beforeSend: function() { 
@@ -56,7 +56,7 @@ $(function() {
 			            }
 				      },
 				      error: function() {
-				      	$('#form-message-warning').html("Something went wrong. Please try again.");
+				      	$('#form-message-warning').html("Algo ha ido mal. Por favor, inténtelo de nuevo.");
 				         $('#form-message-warning').fadeIn();
 				         $submit.css('display', 'none');
 				      }
