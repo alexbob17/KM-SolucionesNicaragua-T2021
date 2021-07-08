@@ -5784,6 +5784,7 @@ line-height: 1.25;
 letter-spacing: -.01em;
 color: #333333;
 margin-bottom: .2rem;
+text-transform: uppercase;
 }
 .product-title a {
 color: inherit;
